@@ -164,6 +164,28 @@ The system includes power management features for both the modem and sensors:
 - RS485 power control
 - Low power modes for extended battery operation
 
+## Code Composition
+
+The codebase has the following approximate composition ratio:
+
+- **Hardware Interaction**: ~70%
+  - Device drivers and peripheral communications
+  - Sensor interfaces (RS485, I2C, ADC)
+  - Modem control and cellular communications
+  - GPS/GNSS functionality
+  - Power management operations
+  - SD card operations
+
+- **Application Logic**: ~30%
+  - Data processing algorithms
+  - Statistical analysis (in statistics.c)
+  - Flow calculations
+  - Water quality analysis
+  - Event-driven state machine
+  - HTTP payload formatting
+
+This distribution reflects the embedded nature of the system, where a significant portion of the code is dedicated to hardware interfacing and communication protocols. The application-specific algorithms primarily focus on processing and analyzing the collected data to provide actionable insights for water monitoring.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
