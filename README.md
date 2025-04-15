@@ -8,14 +8,35 @@ This project uses an ESP32 microcontroller to create a smart water monitoring sy
 
 ## PCB Design
 
-![PCB Design](main/pcb.jpg)
+### PCB Layout
+![PCB Layout](main/pcb.jpg)
 
-The image above shows the PCB design of the SmartWater Radar system, which integrates:
+The PCB layout shows the physical design of the SmartWater Radar system, featuring:
+- ESP32 microcontroller placement
+- A7670 modem interface with RF considerations
+- RS485 transceiver circuit
+- Power supply and management circuitry
+- Sensor interface connectors
+- Antenna placement and routing
+
+### PCB 3D View
+![PCB 3D View](main/pcb_.png)
+
+The 3D rendering provides a visualization of the assembled board, showing:
+- Component placement and orientation
+- Board layer structure
+- Connector positions
+- Mounting holes
+- Overall form factor and dimensions
+
+Key components integrated on the PCB:
 - ESP32 microcontroller
 - A7670 modem interface
 - RS485 communication circuit
 - Sensor interfaces
 - Power management components
+- Antenna connectors
+- Debug and programming interfaces
 
 ## Features
 
