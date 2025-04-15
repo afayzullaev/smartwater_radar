@@ -6,6 +6,17 @@ An ESP32-based Smart Water Radar System that helps monitor and manage water usag
 
 This project uses an ESP32 microcontroller to create a smart water monitoring system. It combines radar-based flow measurement with cellular connectivity (A7670 modem) to provide real-time water usage monitoring, leak detection, and data transmission capabilities. The system uses RS485 communication for the radar sensor and PPP protocol for internet connectivity.
 
+## PCB Design
+
+![PCB Design](main/pcb.jpg)
+
+The image above shows the PCB design of the SmartWater Radar system, which integrates:
+- ESP32 microcontroller
+- A7670 modem interface
+- RS485 communication circuit
+- Sensor interfaces
+- Power management components
+
 ## Features
 
 - Water flow monitoring using RS485 radar sensor
